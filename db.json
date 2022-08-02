@@ -1,38 +1,38 @@
 {
-  "code": 200,
-  "message": "Success",
-  "data": {
-    "tiki_lead_id": "62b13a1f9c09646a773f40b0",
-    "status": "REJECTED",
-    "interval": 5,
-    "max_interval": 30,
-    "error_info": {
-      "extensions": {
-        "code": "",
-        "field": "",
-        "status_code": 0,
-        "back_to_home": false
-      },
-      "message": "Rất tiếc! Hồ sơ trả sau của bạn chưa được phê duyệt tại thời điểm này. Chúng tôi sẽ thông báo đến bạn khi có chương trình phù hợp.",
-      "title": "Đăng ký thất bại",
-      "color_title": "#FF424E",
-      "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
-      "action_list": [
-        {
-          "button_text": "Nộp hồ sơ",
-          "deep_link": "tikivn://phone-and-email",
-          "url_name": "bnpl-phone-and-email",
-          "button_type": "default"
-        },
-        {
-          "button_text": "Về trang chủ",
-          "deep_link": "tikivn://home",
-          "url_name": "home",
-          "button_type": "primary"
+    "submit-info-rejected": {
+        "code": 200,
+        "message": "Success",
+        "data": {
+            "tiki_lead_id": "62b13a1f9c09646a773f40b0",
+            "status": "REJECTED",
+            "interval": 5,
+            "max_interval": 30,
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Rất tiếc! Hồ sơ trả sau của bạn chưa được phê duyệt tại thời điểm này. Chúng tôi sẽ thông báo đến bạn khi có chương trình phù hợp.",
+                "title": "Đăng ký thất bại",
+                "color_title": "#FF424E",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [{
+                        "button_text": "Nộp hồ sơ",
+                        "deep_link": "tikivn://phone-and-email",
+                        "url_name": "bnpl-phone-and-email",
+                        "button_type": "default"
+                    }, {
+                        "button_text": "Về trang chủ",
+                        "deep_link": "tikivn://home",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+                ],
+                "footer_desc": "<p>Vui lòng liên hệ <span style=\"color: #0B74E5;\">1900 6866</span> để biết thêm chi tiết.</p>"
+            },
+            "current_page": "E_CONTRACT"
         }
-      ],
-      "footer_desc": "<p>Vui lòng liên hệ <span style=\"color: #0B74E5;\">1900 6866</span> để biết thêm chi tiết.</p>"
-    },
-    "current_page": "E_CONTRACT"
-  }
+    }
 }
