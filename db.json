@@ -1,5 +1,5 @@
 {
-    "submit-info-rejected": {
+    "check-status-rejected": {
         "code": 200,
         "message": "Success",
         "data": {
